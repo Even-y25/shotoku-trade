@@ -1,126 +1,212 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>尚徳株式会社 | 日中間貿易</title>
-<style>
-body{
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-    margin:0;
-    padding:0;
-    line-height:1.7;
-    color:#333;
-}
-header{
-    background:#111;
-    color:white;
-    padding:20px;
-    text-align:center;
-}
-nav{
-    text-align:center;
-    padding:15px;
-    background:#f5f5f5;
-}
-nav a{
-    margin:0 15px;
-    text-decoration:none;
-    color:#333;
-}
-section{
-    padding:60px 20px;
-    max-width:900px;
-    margin:auto;
-}
-h1,h2{
-    text-align:center;
-}
-.hero{
-    background:#fafafa;
-    padding:80px 20px;
-    text-align:center;
-}
-.footer{
-    background:#111;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:40px;
-}
-table{
-    width:100%;
-    border-collapse:collapse;
-}
-td{
-    padding:10px;
-    border-bottom:1px solid #ddd;
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>尚德株式会社 | 日中間貿易・輸出事業</title>
+  <meta name="description" content="尚德株式会社は、日本品質の商品を中国市場へ届ける日中間貿易・輸出事業を展開しています。" />
+  <link rel="icon" href="images/logo-mark.png" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="尚德株式会社 トップページ">
+      <img src="images/logo-full.png" alt="尚德株式会社 / SHODE CO., LTD." />
+    </a>
 
-<header>
-<h1>尚徳株式会社</h1>
-<p>Shotoku Co., Ltd.</p>
-</header>
+    <button class="nav-toggle" aria-label="メニューを開く" onclick="document.body.classList.toggle('nav-open')">
+      <span></span><span></span><span></span>
+    </button>
 
-<nav>
-<a href="#about">会社情報</a>
-<a href="#business">事業内容</a>
-<a href="#contact">お問い合わせ</a>
-</nav>
+    <nav class="main-nav">
+      <a href="#about">会社情報</a>
+      <a href="#business">事業内容</a>
+      <a href="#products">取扱商品</a>
+      <a href="#flow">お取引の流れ</a>
+      <a href="#contact" class="nav-cta">お問い合わせ</a>
+    </nav>
+  </header>
 
-<div class="hero">
-<h2>日中間貿易および輸出事業</h2>
-<p>日本品質の商品を中国市場へ</p>
-</div>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Japan ⇄ China Trading Company</p>
+        <h1>日中間貿易および<br class="sp-only">輸出事業</h1>
+        <p class="lead">
+          日本品質の商品を中国市場へ。<br>
+          調達・輸出手続き・物流管理まで一貫してサポートいたします。
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#contact">お問い合わせ</a>
+          <a class="btn secondary" href="#business">事業内容を見る</a>
+        </div>
+      </div>
+    </section>
 
-<section id="about">
-<h2>会社概要</h2>
-<table>
-<tr><td>会社名</td><td>尚徳株式会社</td></tr>
-<tr><td>英語表記</td><td>Shotoku Co., Ltd.</td></tr>
-<tr><td>設立</td><td>2023年</td></tr>
-<tr><td>所在地</td><td>大阪府大阪市中央区島町２丁目２−３ サンハイム天満橋311号室</td></tr>
-<tr><td>代表取締役</td><td>呂 紅利</td></tr>
-<tr><td>事業内容</td><td>アニメ関連商品およびアパレル製品の海外輸出業</td></tr>
-</table>
-</section>
+    <section class="service-strip" aria-label="主な事業">
+      <article>
+        <div class="icon">
+          <img src="images/shopping_icon.png" alt="Shopping" />
+        </div>
+        <h3>アニメ関連商品の輸出</h3>
+        <p>日本国内メーカーおよび正規流通ルートより仕入れ、中国市場への輸出を行っております。</p>
+      </article>
 
-<section id="business">
-<h2>事業内容</h2>
+      <article>
+        <div class="icon">
+          <img src="images/dress_icon.png" alt="Apparel" />
+        </div>
+        <h3>アパレル製品の海外販売</h3>
+        <p>カジュアルウェアおよびデザイン商品を中心に、市場ニーズに応じた商品供給を行います。</p>
+      </article>
 
-<h3>アニメ関連商品の輸出</h3>
-<p>
-日本国内メーカーおよび正規流通ルートより仕入れを行い、
-中国市場への輸出を行っております。
-</p>
+      <article>
+        <div class="icon">
+          <img src="images/hand_icon.png" alt="Support" />
+        </div>
+        <h3>貿易業務サポート</h3>
+        <p>商品調達、輸出手続き、通関書類作成、物流管理まで一貫して支援いたします。</p>
+      </article>
+    </section>
 
-<h3>アパレル製品の海外販売</h3>
-<p>
-カジュアルウェアおよびデザイン商品を中心に、
-市場ニーズに応じた商品供給を行っております。
-</p>
+    <section class="section grid-2" id="about">
+      <div>
+        <p class="section-label">Company Profile</p>
+        <h2>会社概要</h2>
+        <p class="section-text">
+          尚德株式会社は、日本国内の商品を中国市場へ届ける輸出事業を中心に、
+          安定した貿易業務と商品供給を目指しています。
+        </p>
+      </div>
 
-<h3>貿易業務サポート</h3>
-<p>
-商品調達、輸出手続き、通関書類作成、物流管理まで
-一貫した貿易支援を提供いたします。
-</p>
+      <div class="card">
+        <table class="profile-table">
+          <tr><th>会社名</th><td>尚德株式会社</td></tr>
+          <tr><th>英語表記</th><td>Shode Co., Ltd.</td></tr>
+          <tr><th>設立</th><td>2023年</td></tr>
+          <tr><th>所在地</th><td>大阪府大阪市中央区島町２丁目２−３ サンハイム天満橋311号室</td></tr>
+          <tr><th>代表取締役</th><td>呂 紅利</td></tr>
+          <tr><th>事業内容</th><td>アニメ関連商品およびアパレル製品の海外輸出業</td></tr>
+        </table>
+      </div>
+    </section>
 
-</section>
+    <section class="section navy" id="business">
+      <p class="section-label gold">Business</p>
+      <h2>事業内容</h2>
 
-<section id="contact">
-<h2>お問い合わせ</h2>
-<p>取引および貿易に関するご相談は下記までお問い合わせください。</p>
-<p>Email: uid18401572@gmail.com</p>
-</section>
+      <div class="business-grid">
+        <article>
+          <span>01</span>
+          <h3>アニメ関連商品の輸出</h3>
+          <p>日本国内メーカーおよび正規流通ルートより仕入れを行い、中国市場への輸出を行っております。</p>
+        </article>
 
-<div class="footer">
-<p>© 2026 Shotoku Co., Ltd. All Rights Reserved.</p>
-</div>
+        <article>
+          <span>02</span>
+          <h3>アパレル製品の海外販売</h3>
+          <p>カジュアルウェアおよびデザイン商品を中心に、市場ニーズに応じた商品供給を行っております。</p>
+        </article>
 
+        <article>
+          <span>03</span>
+          <h3>貿易業務サポート</h3>
+          <p>商品調達、輸出手続き、通関書類作成、物流管理まで一貫した貿易支援を提供いたします。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="products">
+      <p class="section-label">Products</p>
+      <h2>取扱商品</h2>
+
+      <div class="products">
+        <div class="product-card">
+          <h3>アニメ関連商品</h3>
+          <p>キャラクターグッズ、雑貨、コレクション商品など、日本国内の魅力ある商品を中国市場へ届けます。</p>
+        </div>
+
+        <div class="product-card">
+          <h3>アパレル製品</h3>
+          <p>カジュアルウェア、デザイン商品、ファッション雑貨など、需要に応じた商品展開を行います。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section support" id="support">
+      <div>
+        <p class="section-label">Trade Support</p>
+        <h2>安心できる貿易業務を</h2>
+        <p class="section-text">
+          仕入れから輸出関連業務、物流管理まで、取引内容に応じて柔軟に対応いたします。
+        </p>
+      </div>
+
+      <ul>
+        <li>正規流通ルートからの商品調達</li>
+        <li>輸出手続きおよび通関書類作成</li>
+        <li>中国市場向けの商品供給</li>
+        <li>物流・納品スケジュール管理</li>
+      </ul>
+    </section>
+
+    <section class="section" id="flow">
+      <p class="section-label">Flow</p>
+      <h2>お取引の流れ</h2>
+
+      <div class="flow">
+        <div>
+          <span>01</span>
+          <h3>お問い合わせ</h3>
+          <p>商品内容・数量・納期など、ご希望の取引内容をお知らせください。</p>
+        </div>
+
+        <div>
+          <span>02</span>
+          <h3>内容確認・お見積り</h3>
+          <p>仕入れ条件、輸出費用、物流条件を確認し、お見積りを作成いたします。</p>
+        </div>
+
+        <div>
+          <span>03</span>
+          <h3>商品調達</h3>
+          <p>日本国内のメーカーおよび正規流通ルートを中心に商品を調達します。</p>
+        </div>
+
+        <div>
+          <span>04</span>
+          <h3>輸出・納品</h3>
+          <p>輸出手続き、通関関連書類、物流管理を行い、納品まで対応いたします。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-card">
+        <p class="section-label">Contact</p>
+        <h2>お問い合わせ</h2>
+        <p>
+          取引および貿易に関するご相談は、下記メールアドレスまでお気軽にお問い合わせください。
+        </p>
+        <a class="mail" href="mailto:shoto.trade1@gmail.com">shoto.trade1@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="images/logo-mark.png" alt="" />
+
+    <nav class="footer-nav">
+      <a href="#about">会社情報</a>
+      <a href="#business">事業内容</a>
+      <a href="#products">取扱商品</a>
+      <a href="#flow">お取引の流れ</a>
+      <a href="#contact">お問い合わせ</a>
+    </nav>
+
+    <p>© 2026 Shode Co., Ltd. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
